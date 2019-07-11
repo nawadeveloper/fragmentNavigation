@@ -6,4 +6,11 @@
     <string name="view_transaction">view transaction</string>
     <string name="send_money">send money</string>
     <string name="view_balance">view balance</string>
+    <string name="recipient">recipient</string>
+    <string name="name">name</string>
+    <string name="next">next</string>
+    <string name="cancel">cancel</string>
+    <string name="_0_sent_to_nawa">$0 sent to nawa</string>
+    <string name="amount">Amount</string>
+    <string name="send">send</string>
 </resources>
