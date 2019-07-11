@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">fragmentNavigation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_transaction">view transaction</string>
+    <string name="send_money">send money</string>
+    <string name="view_balance">view balance</string>
+</resources>
