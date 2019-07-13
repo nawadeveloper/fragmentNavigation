@@ -7,10 +7,11 @@
     tools:context=".ConfirmationFragment">
 
     <TextView
+        android:id="@+id/textview_send_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_0_sent_to_nawa"
-        android:textSize="24sp"/>
+        android:textSize="24sp" />
 
 
 </LinearLayout>

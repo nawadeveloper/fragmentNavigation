@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.core.os.bundleOf
 import androidx.navigation.findNavController
 import kotlinx.android.synthetic.main.fragment_choose_recipient.*
 
@@ -29,7 +30,9 @@ class ChooseRecipientFragment : Fragment() {
                 Toast.makeText(context, "must provide name of recipient", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
-            view.findNavController().navigate(R.id.action_chooseRecipientFragment_to_specifyAmountFragment)
+            val bundle = bundleOf("recipient" to addName.text.toString())
+            view.findNavController().
+                navigate(R.id.action_chooseRecipientFragment_to_specifyAmountFragment, bundle)
         }
 
         button_cancel_recipient.setOnClickListener {
